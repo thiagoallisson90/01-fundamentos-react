@@ -16,10 +16,8 @@ const posts = [
     content: [
       { type: 'paragraph', text: 'Fala galeraa 👋' },
       { type: 'paragraph', text: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', text: '👉{" "}jane.design/doctorcare' },
-      { type: 'link', text: '#novoprojeto{" "}' },
-      { type: 'link', text: '#nlw{" "}' },
-      { type: 'link', text: '#rocketseat' }
+      { type: 'link', text: '👉 jane.design/doctorcare' },
+      { type: 'links', text: ['#novoprojeto', '#nlw', '#rocketseat'] },
     ],
     publishedAt: new Date('2023-03-05 20:00:00')
   },
@@ -33,10 +31,8 @@ const posts = [
     content: [
       { type: 'paragraph', text: 'Fala galeraa 👋' },
       { type: 'paragraph', text: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', text: '👉{" "}jane.design/doctorcare' },
-      { type: 'link', text: '#novoprojeto{" "}' },
-      { type: 'link', text: '#nlw{" "}' },
-      { type: 'link', text: '#rocketseat' }
+      { type: 'link', text: '👉jane.design/doctorcare' },
+      { type: 'links', text: ['#novoprojeto', '#nlw', '#rocketseat'] },
     ],
     publishedAt: new Date('2023-03-06 20:00:00')
   }
