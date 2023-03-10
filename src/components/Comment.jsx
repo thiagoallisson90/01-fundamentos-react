@@ -25,7 +25,7 @@ export function Comment({ content, onDeleteComment }) {
             </div>
 
             <button onClick={() => { 
-                  if (window.confirm('Are you sure to delete this comment?')) {
+                  if (window.confirm('tem certeza que quer deletar este comentário?')) {
                     handleDeleteComment() 
                   } 
                 }
